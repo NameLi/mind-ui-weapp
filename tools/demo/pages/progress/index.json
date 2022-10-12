@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Progress 进度条",
+  "usingComponents": {
+    "m-progress": "/components/progress/index"
+  }
+}

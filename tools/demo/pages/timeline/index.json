@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Timeline 时间轴",
+  "usingComponents": {
+    "m-timeline": "/components/timeline/index",
+    "m-timeline-item": "/components/timeline-item/index"
+  }
+}

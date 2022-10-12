@@ -1,0 +1,19 @@
+<view class="m-swipeout custom-class">
+  <view 
+    class="m-swipeout__content"
+    style="{{ setStyle }}"
+    bindtouchstart="handleTouchstart"
+    bindtouchmove="handleTouchmove"
+    bindtouchend="handleTouchend"
+    bindtouchcancel="handleTouchend"
+  >
+    <slot />
+  </view>
+
+  <view 
+    class="m-swipeout__button--group {{ isReady ? 'is-ready' : '' }}"
+    style="{{ buttonStyle }}"
+  >
+    <slot name="button" />
+  </view>
+</view>

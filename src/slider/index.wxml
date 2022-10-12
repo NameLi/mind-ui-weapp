@@ -1,0 +1,25 @@
+<view
+  class="m-slider {{ disabled ? 'm-slider--disabled':'' }} custom-class"
+  style="{{ inactiveColor ? 'background:' + inactiveColor : '' }}"
+  bind:tap="onClick"
+>
+  <view
+    class="m-slider__bar"
+    style="{{ barStyle }}; {{ activeColor ? 'background:' + activeColor : '' }}"
+  >
+    <view
+      class="m-slider__button-wrap"
+      bind:touchstart="onTouchStart"
+      catch:touchmove="onTouchMove"
+      bind:touchend="onTouchEnd"
+      bind:touchcancel="onTouchEnd"
+    >
+      <slot wx:if="{{ useSlot }}" />
+
+      <view
+        wx:else
+        class="m-slider__button"
+      />
+    </view>
+  </view>
+</view>

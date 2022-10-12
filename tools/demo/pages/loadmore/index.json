@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "LoadMore 页底提示",
+  "usingComponents": {
+    "m-loadmore": "/components/loadmore/index"
+  }
+}

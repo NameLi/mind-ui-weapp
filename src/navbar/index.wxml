@@ -1,0 +1,8 @@
+<view class="m-tab-item is-active" bind:tap="onClick">
+  <view class="m-tab-item__content">
+    <view class="m-tab-item__text" style="{{ activeColor ? 'color:' + activeColor: '' }}">
+      {{ title }}
+      <m-badge wx:if="{{ value }}" custom-class="m-badge-custom" value="{{ value }}" static />
+    </view>
+  </view>
+</view>

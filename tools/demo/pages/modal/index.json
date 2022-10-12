@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Modal 对话框",
+  "usingComponents": {
+    "m-modal": "/components/modal/index",
+    "m-message": "/components/message/index"
+  }
+}

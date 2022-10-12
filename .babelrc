@@ -1,0 +1,12 @@
+{
+    "plugins": [
+        "transform-object-rest-spread",
+        ["module-resolver", {
+            "root": ["./src"],
+            "alias": {}
+        }]
+    ],
+    "presets": [
+        ["env", {"loose": true, "modules": "commonjs"}]
+    ]
+}

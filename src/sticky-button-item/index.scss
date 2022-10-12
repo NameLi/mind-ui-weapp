@@ -1,0 +1,21 @@
+.m-sticky-item__button {
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  color: #ffff;
+  border-radius: 50%;
+  border: 0 !important;
+  transition: transform .3s ease-in-out;
+  background: var(--color-primary, #409EFF);
+
+  &::after {
+    display: none;
+  }
+}

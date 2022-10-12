@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents":
+  {
+    "m-button": "../button/index",
+    "m-icon": "../icon/index"
+  }
+}

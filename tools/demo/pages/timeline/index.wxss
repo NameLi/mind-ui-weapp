@@ -1,0 +1,15 @@
+page {
+  padding-top: 30rpx;
+  background-color: #fff;
+}
+
+.custom-content {
+  padding: 0 !important;
+  background-color: transparent !important;
+}
+
+.content {
+  padding: 32rpx;
+  background-color: #f1f1f1;
+  border-radius: 6rpx;
+}

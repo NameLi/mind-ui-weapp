@@ -1,0 +1,62 @@
+.custom-card {
+  margin: 0 -12rpx;
+}
+
+.color-item {
+  flex: 1;
+  margin: 12rpx;
+  padding: 24rpx 0;
+  color: #fff;
+  text-align: center;
+  border-radius: 6rpx;
+}
+
+.color-item .label {
+  font-size: 32rpx;
+}
+
+.color-item .value {
+  font-size: 28rpx;
+  margin-top: 20rpx;
+}
+
+.grid {
+  display: flex;
+}
+
+.color-item.primary {
+  background-color: var(--color-primary, #409EFF);
+}
+
+
+.color-item.success {
+  background-color: var(--color-success, #67C23A);
+}
+
+.color-item.warning {
+  background-color: var(--color-warning, #E6A23C);
+}
+
+.color-item.danger {
+  background-color: var(--color-danger, #F56C6C);
+}
+
+.color-item.text-primary {
+  background-color: var(--color-text-primary, #303133);
+}
+
+.color-item.text-regular {
+  background-color: var(--color-text-regular, #606266);
+}
+
+.color-item.text-secondary {
+  background-color:  var(--color-text-secondary, #909399);
+}
+
+.color-item.border {
+  background-color: var(--color-border, #dcdee2);
+}
+
+.color-item.mask {
+  background-color: var(--color-mask, rgba(0, 0, 0, 0.55));
+}

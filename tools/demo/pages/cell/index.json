@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Cell 单元格",
+  "usingComponents": {
+    "m-cell-group": "/components/cell-group/index",
+    "m-cell": "/components/cell/index"
+  }
+}

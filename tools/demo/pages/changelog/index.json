@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "更新日志",
+  "usingComponents": {
+    "m-timeline": "/components/timeline/index",
+    "m-timeline-item": "/components/timeline-item/index"
+  }
+}
