@@ -1,5 +1,5 @@
 .m-mask {
-  z-index: 9;
+  z-index: 1998;
   position: fixed;
   top: 0;
   left: 0;
@@ -17,7 +17,7 @@
 }
 
 .m-sheet {
-  z-index: 10;
+  z-index: 1999;
   position: fixed;
   width: 100%;
   left: 0;

@@ -10,11 +10,11 @@ page {
 }
 .date {
   color: #fff;
-  font-size: 14px;
+  font-size: 28rpx;
 }
 .text {
   padding-top: 6px;
-  font-size: 14px;
+  font-size: 28rpx;
   line-height: 1.4;
   color: #f1f1f1;
 }

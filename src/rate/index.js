@@ -1,4 +1,10 @@
 Component({
+  externalClasses: ['custom-class'],
+
+  options: {
+    addGlobalClass: true,
+  },
+
   properties: {
     max: {
       type: Number,
@@ -14,7 +20,20 @@ Component({
     },
     size: {
       type: Number,
-      value: 40
+      value: 40,
+      observer(val) {
+        const height = parseInt(val)
+
+        if (val < 32) {
+          this.setData({
+            heightStyle: `height:${height}px; line-height:${height}px;`
+          })
+        } else if (this.data.heightStyle) {
+          this.setData({
+            heightStyle: ''
+          })
+        }
+      }
     },
     value: {
       type: Number,
@@ -70,7 +89,8 @@ Component({
     starNum: 5,
     tValue: 0,
     actived: -1,
-    text: ''
+    text: '',
+    heightStyle: ""
   },
 
   observers: {
@@ -82,7 +102,7 @@ Component({
 
     value: function (value) {
       this.setData({
-        tValue: parseInt(value) / this.data.step
+        tValue: value / this.data.step
       })
       this._setShowText();
     }

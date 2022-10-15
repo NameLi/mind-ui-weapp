@@ -7,6 +7,20 @@
 	line-height: 54rpx;
 	font-size: 28rpx;
 
+	&.m-cell__hairline {
+		&::after {
+			position: absolute;
+			box-sizing: border-box;
+			content: " ";
+			pointer-events: none;
+			right: 32rpx;
+			bottom: 0;
+			left: 32rpx;
+			border-bottom: 1px solid var(--color-border, #dcdee2);
+			transform: scaleY(0.5);
+		}
+	}
+
 	&.m-cell--hover {
 		background-color: #f7f8f9;
 	}

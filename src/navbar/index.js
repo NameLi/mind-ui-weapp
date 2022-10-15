@@ -34,6 +34,7 @@ Component({
   },
 
   data: {
+    activeName: '',
     activeColor: ''
   },
 

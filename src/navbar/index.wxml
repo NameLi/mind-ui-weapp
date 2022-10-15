@@ -1,4 +1,4 @@
-<view class="m-tab-item is-active" bind:tap="onClick">
+<view class="m-tab-item {{activeName === name ? 'is-active': ''}}" bind:tap="onClick">
   <view class="m-tab-item__content">
     <view class="m-tab-item__text" style="{{ activeColor ? 'color:' + activeColor: '' }}">
       {{ title }}

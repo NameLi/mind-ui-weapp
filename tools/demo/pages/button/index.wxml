@@ -67,8 +67,3 @@
   <m-button custom-class="my-button" type="primary" plain loading>Loading</m-button>
   <m-button custom-class="my-button" type="primary" loading>Loading</m-button>
 </demo-card>
-
-<!-- 开放能力 -->
-<demo-card title="开放能力">
-  <m-button custom-class="my-button" open-type="getUserInfo" bind:getuserinfo="getuserinfo" type="primary">微信用户授权</m-button>
-</demo-card>

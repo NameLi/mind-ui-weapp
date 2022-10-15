@@ -12,5 +12,5 @@
 	<m-cell title="QQ 群">	
 		<view class="content" bindtap='copyText' data-text="577133021">577133021</view>
 	</m-cell>
-	<m-cell title="最近更新" value="2022-10-10" />
+	<m-cell title="最近更新" value="2022-10-16" />
 </m-cell-group>

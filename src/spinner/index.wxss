@@ -118,7 +118,7 @@
   display: inline-block;
 }
 
-.m-spinner .m-spinner__triple .m-triple.m-rect {
+.m-spinner .m-spinner__triple .m-triple .m-rect {
   height: 24rpx;
   width: 100%;
   border-radius: 10rpx;
@@ -128,11 +128,11 @@
   background-color: currentColor;
 }
 
-.m-spinner .m-spinner__triple .m-triple.m-rect.m-rect1 {
+.m-spinner .m-spinner__triple .m-triple .m-rect.m-rect1 {
   animation-delay: 0.2s;
 }
 
-.m-spinner .m-spinner__triple .m-triple.m-rect.m-rect2 {
+.m-spinner .m-spinner__triple .m-triple .m-rect.m-rect2 {
   animation-delay: 0.4s;
 }
 

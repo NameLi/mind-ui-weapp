@@ -1,6 +1,6 @@
 <view 
   bindtap="onClick"
-  class="m-cell custom-class {{ border ? 'm-hairline--bottom':'' }}"
+  class="m-cell custom-class {{ border ? 'm-cell__hairline':'' }}"
   hover-class="{{ url ? 'm-cell--hover' : '' }}"  
 > 
   <!-- 头部图标 -->

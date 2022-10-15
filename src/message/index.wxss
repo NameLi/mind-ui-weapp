@@ -3,8 +3,8 @@
   position: fixed;
   margin-top: 22rpx;
   top: 0;
-  left: 15rpx;
-  right: 15rpx;
+  left: 32rpx;
+  right: 32rpx;
   padding: 15rpx 80rpx;
   min-height: 66rpx;
   line-height: 36rpx;

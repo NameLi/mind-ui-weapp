@@ -25,6 +25,20 @@
   }
 }
 
+.m-rate .m-rate__content .m-rate__icon {
+  vertical-align: top;
+  display: inline-flex;
+}
+
+.m-rate .m-rate__content .m-rate__icon.m-rate__icon--half {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  overflow: hidden;
+}
+
 .m-rate .m-rate__content .m-rate__half-icon {
   display: block;
   position: absolute;

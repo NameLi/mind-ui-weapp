@@ -113,6 +113,7 @@ Component({
         this.children.forEach((child, index) => {
           let color = child.data.name === name ? activeColor : ''
           child.setData({
+            activeName: name,
             activeColor: color
           })
         })
