@@ -1,11 +1,13 @@
-.iconfont {
+@import "..\\assets/font/iconfont.wxss";
+
+.m-icon {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
 	transition: color .2s ease-in-out;
 	color: var(--color-text-secondary, #909399);
 
-	.icon__image {
+	.m-icon__image {
 		width: 100%;
 		height: 100%;
 		display: inline-block;

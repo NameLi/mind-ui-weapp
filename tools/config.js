@@ -50,7 +50,7 @@ module.exports = {
     'index-item/index',
     'sticky-button/index',
     'sticky-button-item/index',
-    
+
     'slider/index',
     'radio/index',
     'radio-group/index',
@@ -136,5 +136,5 @@ module.exports = {
     }
   },
 
-  copy: [], // 将会复制到目标目录
+  copy: ['./assets'], // 将会复制到目标目录
 }

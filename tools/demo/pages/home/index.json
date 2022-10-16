@@ -1,5 +1,8 @@
 {
+  "navigationStyle": "custom",
   "navigationBarBackgroundColor": "#F4F4F4",
   "backgroundColor": "#F4F4F4",
-  "usingComponents": {}
+  "usingComponents": {
+    "header-scroll-bar": "../components/header-scroll-bar/index"
+  }
 }

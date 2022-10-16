@@ -1,7 +1,7 @@
 <m-cell-group border card>
-	<m-cell title="项目名称" value="Mind UI" />
+	<m-cell title="项目名称" value="{{ AppName }}" />
 	<m-cell title="说明文档">
-		<view class="content" bindtap='copyText' data-text="https://mind-ui.ixook.com">https://mind-ui.ixook.com</view>
+		<view class="content" bindtap='copyText' data-text="{{ DocSite }}">{{ DocSite }}</view>
 	</m-cell>
 	<m-cell title="源码地址">
 		<view class="content" bindtap='copyText' data-text="https://github.com/NameLi/mind-ui">https://github.com/NameLi/mind-ui</view>
@@ -12,5 +12,5 @@
 	<m-cell title="QQ 群">	
 		<view class="content" bindtap='copyText' data-text="577133021">577133021</view>
 	</m-cell>
-	<m-cell title="最近更新" value="2022-10-16" />
+	<m-cell title="最近更新" value="{{ UpdateDate }}" />
 </m-cell-group>

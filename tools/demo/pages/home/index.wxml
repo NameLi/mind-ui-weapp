@@ -1,10 +1,13 @@
+<header-scroll-bar title="{{AppName}}" subtitle="版本:{{Version}} 更新于:{{UpdateDate}}" scroll-top="{{ scrollTop }}"
+  poster="{{ Logo }}" />
+
 <view class="logo__wrap">
-  <image class="logo" src="https://note-file.ixook.com/FkwInL0tWpqDeRNtYHMfmaHlioTq" />
+  <image class="logo" src="{{ Logo }}" />
 </view>
 
-<view class="title">Mind UI</view>
+<view class="title">{{AppName}}</view>
 <view class="desc">原生、轻量、高效的微信小程序UI组件库</view>
-<view class="desc" bindtap='copyText' data-text="https://mind-ui.ixook.com">文档地址：https://mind-ui.ixook.com</view>
+<view class="desc" bindtap='copyText' data-text="{{ DocSite }}">文档地址：{{ DocSite }}</view>
 
 <m-cell-group title="基础组件" border card>
   <m-cell title="Color" url="/pages/color/index" />
@@ -58,5 +61,3 @@
   <m-cell title="更新日志" url="/pages/changelog/index" />
   <m-cell title="关于项目" url="/pages/about/index" />
 </m-cell-group>
-
-<view style="height: 40rpx;"></view>

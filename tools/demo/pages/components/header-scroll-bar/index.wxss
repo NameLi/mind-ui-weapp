@@ -1,0 +1,101 @@
+.header-wrapper {
+  background-color: transparent;
+}
+
+.header-wrapper .header-shadow {
+  opacity: 0;
+}
+
+.header-wrapper .header {
+  z-index: 1998;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  color: #fff;
+}
+
+.header-wrapper .header .header-bg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #F4F4F4;
+  transition: opacity .15s ease-in-out;
+  opacity: 0;
+}
+
+.header-wrapper .header .header-bg.is-show {
+  opacity: 1;
+}
+
+.header-wrapper .header .header-content {
+  position: relative;
+}
+
+.header-wrapper .header .header-content.is-show .header-box {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.header-wrapper .header .header-content .header-box {
+  display: flex;
+  align-items: center;
+  padding: 0 32rpx;
+  height: 100%;
+  flex: 1;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all .2s ease-in-out;
+}
+
+.header-wrapper .header .header-content .header-box .header-poster {
+  display: flex;
+  align-items: center;
+  margin-right: 16rpx;
+  height: 100%;
+  max-width: 100rpx;
+  flex-shrink: 0;
+}
+
+.header-wrapper .header .header-content .header-box .header-poster .poster {
+  padding: 6rpx;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.header-wrapper .header .header-content .header-box .header-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  overflow: hidden;
+  color: #777;
+}
+
+.header-wrapper .header .header-content .header-box .header-info .title {
+  font-size: 28rpx;
+  font-weight: 500;
+  white-space: nowrap;
+  line-height: 32rpx;
+  color: var(--color-text-primary);
+}
+
+.header-wrapper .header .header-content .header-box .header-info .subtitle {
+  margin-top: 2px;
+  font-size: 22rpx;
+  line-height: 24rpx;
+  white-space: nowrap;
+  color: var(--color-text-secondary);
+}
+
+.header-wrapper .header .header-content .header-slot {
+  display: flex;
+  align-items: center;
+  margin-right: 20rpx;
+}

@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "component": true,
+  "usingComponents": {
+    "m-icon": "../icon/index"
+  }
 }

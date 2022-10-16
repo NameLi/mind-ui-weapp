@@ -12,7 +12,7 @@
   min-height: 80rpx;
   display: flex;
   justify-content: center;
-  color: #aaa;
+  color: var(--color-text-secondary, #909399);
   font-size: 28rpx;
 }
 
@@ -22,7 +22,7 @@
   width: 1px;
   bottom: 10rpx;
   content: " ";
-  background: #cdcdcd;
+  background: var(--color-border, #dcdee2);
   transform: translateY(0.5);
 }
 

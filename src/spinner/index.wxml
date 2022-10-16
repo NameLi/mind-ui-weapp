@@ -1,4 +1,4 @@
-<view class="m-spinner custom-class" style="color: {{ color }}">
+<view class="m-spinner custom-class" style="{{ color ? 'color:' + color : '' }}">
 	<view wx:if="{{type === 'snake'}}" class="m-spinner__snake"></view>
 	<view wx:if="{{type === 'bounce'}}" class="m-spinner__bounce">
 		<view class="m-bounce  m-bounce1"></view>
@@ -9,7 +9,7 @@
 	</view>
 	<view wx:if="{{type === 'triple'}}" class="m-spinner__triple">
 		<view class='m-triple' wx:for="{{colors}}" wx:key="index">
-			<view class='m-rect m-rect{{index}}' style="color: {{ item }}"></view>
+			<view class='m-rect m-rect{{index}}' style="{{ item ? 'color:' + item : '' }}"></view>
 		</view>
 	</view>
 	<view wx:if="{{type === 'dot'}}" class="m-spinner__dot">

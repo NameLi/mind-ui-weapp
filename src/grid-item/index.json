@@ -1,6 +1,7 @@
 {
   "component": true,
   "usingComponents": {
+    "m-icon": "../icon/index",
     "m-badge": "../badge/index"
   }
 }

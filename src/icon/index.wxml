@@ -1,12 +1,12 @@
 <view 
-	class="iconfont icon-{{ name }} custom-class" 
+	class="m-icon m-icon-{{ name }} custom-class" 
 	style="{{ icon.setIconStyle(isImage, fsize, color) }} {{ customStyle }}"
 >
   <image
     wx:if="{{ isImage }}"
     src="{{ name }}"
     mode="aspectFit"
-    class="icon__image"
+    class="m-icon__image"
    />
 </view>
 

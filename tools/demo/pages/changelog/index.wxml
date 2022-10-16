@@ -1,4 +1,15 @@
 <m-timeline>
+	<m-timeline-item text="v0.4.2">
+		<view class="content">
+			<view class="date">2022-10-16</view>
+			<view class="text">
+				<view>1.优化icon组件，将iconfont字体放入到组件库中，不需要下载后放入项目中引用</view>
+				<view>2.优化iconfont字体命名为m-icon，统一样式命名空间，防止与项目中其它字体文件冲突</view>
+				<view>3.修复组件库中部分组件使用了icon组件，但未在json中引入，导致开发环境字体图标不显示问题</view>
+				<view>4.增加1px border样式类到组件中，不需要下载后放入项目中引用</view>
+			</view>
+		</view>
+	</m-timeline-item>
 	<m-timeline-item text="v0.4.1">
 		<view class="content">
 			<view class="date">2022-10-16</view>

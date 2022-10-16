@@ -58,7 +58,7 @@
   "window": {
     "navigationBarBackgroundColor": "#F4F4F4",
     "backgroundTextStyle": "light",
-    "navigationBarTitleText": "Mind UI",
+    "navigationBarTitleText": "Mind UI Weapp",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json"
