@@ -5,7 +5,7 @@ page {
 
 .content {
   padding: 24rpx;
-  background-color: #67c23a;
+  background-color: var(--color-info);
   border-radius: 6rpx;
 }
 .date {
@@ -17,4 +17,12 @@ page {
   font-size: 28rpx;
   line-height: 1.4;
   color: #f1f1f1;
+}
+
+.content.is-new {
+    background-color: var(--color-primary);
+}
+
+.content.is-important {
+    background-color: var(--color-warning);
 }

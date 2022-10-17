@@ -3,8 +3,8 @@
 	<m-cell title="说明文档">
 		<view class="content" bindtap='copyText' data-text="{{ DocSite }}">{{ DocSite }}</view>
 	</m-cell>
-	<m-cell title="源码地址">
-		<view class="content" bindtap='copyText' data-text="https://github.com/NameLi/mind-ui">https://github.com/NameLi/mind-ui</view>
+	<m-cell title="源码地址" multiple>
+		<view class="content" bindtap='copyText' data-text="https://github.com/NameLi/mind-ui-weapp">https://github.com/NameLi/mind-ui-weapp</view>
 	</m-cell>
 	<m-cell title="作者主页">
 		<view class="content" bindtap='copyText' data-text="https://ixook.com">https://ixook.com</view>

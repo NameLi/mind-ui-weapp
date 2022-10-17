@@ -1,47 +1,66 @@
 <m-timeline>
+    <m-timeline-item text="v0.4.2">
+		<view class="content is-new">
+			<view class="date">2022-10-17</view>
+			<view class="text">
+				<view>1.新增组件库的使用文档，地址：https://mind-ui-weapp.ixook.com</view>
+			</view>
+		</view>
+	</m-timeline-item>
+
 	<m-timeline-item text="v0.4.2">
-		<view class="content">
+		<view class="content is-new">
 			<view class="date">2022-10-16</view>
 			<view class="text">
-				<view>1.优化icon组件，将iconfont字体放入到组件库中，不需要下载后放入项目中引用</view>
-				<view>2.优化iconfont字体命名为m-icon，统一样式命名空间，防止与项目中其它字体文件冲突</view>
-				<view>3.修复组件库中部分组件使用了icon组件，但未在json中引入，导致开发环境字体图标不显示问题</view>
-				<view>4.增加1px border样式类到组件中，不需要下载后放入项目中引用</view>
+				<view>1.优化 icon 组件，将iconfont字体放入到组件库中，不需要下载后放入项目中引用</view>
+				<view>2.优化 iconfont 字体命名为 m-icon ，统一样式命名空间，防止与项目中其它字体文件冲突</view>
+				<view>3.修复组件库中部分组件使用了 icon 组件，但未在 json 中引入，导致开发环境字体图标不显示问题</view>
+				<view>4.增加 1px border 样式类到组件中，不需要下载后放入项目中引用</view>
 			</view>
 		</view>
 	</m-timeline-item>
 	<m-timeline-item text="v0.4.1">
-		<view class="content">
+		<view class="content is-new">
 			<view class="date">2022-10-16</view>
 			<view class="text">
-				<view>1.优化action-sheet 层级过低问题</view>
-				<view>2.修复cell border 两边未留边距问题</view>
-				<view>3.优化message组件两边距离为32rpx</view>
+				<view>1.优化 action-sheet 层级过低问题</view>
+				<view>2.修复 cell border 两边未留边距问题</view>
+				<view>3.优化 essage 组件两边距离为 32rpx</view>
 				<view>4.修复 navbar 选中时选中状态错误</view>
-				<view>5.修复rate组件未添加addGlobalClass属性问题</view>
-				<view>6.修复rate size值过小时半选图标错位问题</view>
+				<view>5.修复 rate 组件未添加 addGlobalClass 属性问题</view>
+				<view>6.修复 rate size 值过小时半选图标错位问题</view>
 				<view>7.优化一些示例体验</view>
-				<view>8.移除button组件获取用户信息的开放能力</view>
+				<view>8.移除 button 组件获取用户信息的开放能力</view>
 			</view>
 		</view>
 	</m-timeline-item>
 
 	<m-timeline-item text="v0.4.0">
-		<view class="content">
+		<view class="content is-new">
 			<view class="date">2022-10-12</view>
 			<view class="text">
-				<view>1.优化.wxss由.scss生成</view>
+				<view>1.优化 .wxss 由 .scss 生成</view>
 				<view>2.优化多个组件的样式</view>
 				<view>3.优化多个组件增加底部安全距离</view>
 				<view>4.优化 navbar 初始化时x轴显示滚动条问题</view>
-				<view>5.优化toast、message组件增加顶部安全距离</view>
-				<view>6.修复swipeout ios系统显示异常，优化初始化时按钮闪烁问题</view>
-				<view>7.修复 header 滚动时未固定问题</view>
-				<view>8.修复 icon 组件字体居中异常问题</view>
-				<view>9.修复 modal 组件 js 引入时异步关闭异常问题</view>
-				<view>10.rate 组件增加 step 步长属性</view>
-				<view>11.所有组件增加 addGlobalClass 属性</view>
-				<view>12.其它一些不影响功能的用户体验优化</view>
+				<view>5.优化 toast、message 组件增加顶部安全距离</view>
+				<view>6.优化 modal 组件显示动画</view>
+				<view>7.修复 wipeout ios 系统显示异常，优化初始化时按钮闪烁问题</view>
+				<view>8.修复 header bar 滚动时未固定在顶部问题</view>
+				<view>9.修复 icon 组件字体居中异常问题</view>
+				<view>10.修复 modal 组件 js 引入时异步关闭失败问题</view>
+				<view>11.新增 rate 组件 step 步长属性</view>
+				<view>12.所有组件增加 addGlobalClass 属性</view>
+				<view>13.其它一些不影响功能的用户体验优化</view>
+			</view>
+		</view>
+	</m-timeline-item>
+
+    <m-timeline-item text="v0.4.0">
+		<view class="content is-important">
+			<view class="date">2022-10-12</view>
+			<view class="text">
+				<view>增加组件库 npm 安装支持</view>
 			</view>
 		</view>
 	</m-timeline-item>
@@ -52,7 +71,7 @@
 			<view class="text">
 				<view>1.优化 button 组件样式</view>
 				<view>2.修复 action sheet 组件 click 事件无效问题</view>
-				<view>3.修复一些样式使用警告</view>
+				<view>3.优化避免一些样式使用警告</view>
 			</view>
 		</view>
 	</m-timeline-item>
@@ -61,10 +80,10 @@
 		<view class="content">
 			<view class="date">2022-07-25</view>
 			<view class="text">
-				<view>1.优化元素类名，采用 BEM 命名规范</view>
+				<view>1.优化标签类名，使用 BEM 命名规范，增加 m- 命名空间</view>
 				<view>2.优化部分组件代码</view>
 				<view>3.优化组件示例代码</view>
-				<view>4.增加 1px 边框</view>
+				<view>4.增加 1px 细边框</view>
 				<view>5.增加动画组件 m-transition</view>
 				<view>6.增加更新日志页面</view>
 			</view>
