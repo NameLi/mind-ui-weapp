@@ -1,4 +1,5 @@
-const app = getApp()
+import getSystemInfo from "../utils/systemInfo";
+const systemInfo = getSystemInfo();
 
 Component({
   options: {
@@ -83,7 +84,6 @@ Component({
           bgImageStyle: `background-image: url("${val}")`
         })
       } else {
-
         this.setData({
           bgImageStyle: ''
         })
@@ -96,7 +96,7 @@ Component({
           titleAlignClass: val
         })
       } else {
-        if (!this.data.align && app.globalData.isIOS) {
+        if (!this.data.align && systemInfo.isIOS) {
           this.setData({
             titleAlignClass: 'is-center'
           })
@@ -122,9 +122,10 @@ Component({
   },
 
   data: {
-    statusBarH: app.globalData.statusBarH,
-    customBarH: app.globalData.customBarH,
-    custom: app.globalData.customBar,
+    isIOS: systemInfo.isIOS,
+    headerBarH: systemInfo.headerBarH,
+    statusBarH: systemInfo.statusBarH,
+    titleBarH: systemInfo.titleBarH,
     titleAlignStyle: '',
     titleColorStyle: '',
     bgColorStyle: '',
@@ -132,7 +133,7 @@ Component({
   },
 
   attached() {
-    if (!this.data.titleAlign && app.globalData.isIOS) {
+    if (!this.data.titleAlign && systemInfo.isIOS) {
       this.setData({
         titleAlignClass: 'is-center'
       })

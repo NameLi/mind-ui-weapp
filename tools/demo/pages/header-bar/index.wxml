@@ -25,7 +25,7 @@
 
 <m-button bind:click="handleCustomTitleColor">设置title为白色</m-button>
 
-<m-button bind:click="handleCustomTitleAlign">{{ titleAlign === 'center' ? 'title 随平台对齐' : 'title居中对齐' }}</m-button>
+<m-button bind:click="handleCustomTitleAlign">{{ titleAlign === 'center' ? 'title居中对齐' : 'title 随平台对齐' }}</m-button>
 
 <m-button bind:click="handleCustomBackColor">自定义返回按钮为白色</m-button>
 

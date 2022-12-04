@@ -27,7 +27,7 @@ Component({
       type: Number,
       value: 0,
       observer: function (nVal, oVal) {
-        if (nVal > this.data.headerBarH + 60) {
+        if (nVal > app.globalData.headerBarH + 60) {
           this.setData({
             isTop: false
           })
@@ -43,9 +43,9 @@ Component({
   data: {
     isTop: true,
     isReady: false,
+    headerBarH: app.globalData.headerBarH,
     statusBarH: app.globalData.statusBarH,
-    headerBarH: app.globalData.customBarH,
-    headerContentH: app.globalData.customBarH - app.globalData.statusBarH,
+    titleBarH: app.globalData.titleBarH,
   },
 
   ready() {

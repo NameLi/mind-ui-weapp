@@ -1,5 +1,17 @@
 <m-timeline>
-    <m-timeline-item text="v0.4.2">
+    <m-timeline-item text="v1.1.0">
+		<view class="content is-new">
+			<view class="date">2022-12-04</view>
+			<view class="text">
+				<view>1.增加获取自定义头部导航栏的导航栏信息，该方法外部可调用</view>
+				<view>2.优化 header-bar 示例</view>
+				<view>3.移除header-bar组件导航栏信息需要从 app 中获取的需求</view>
+				<view>4.移除 iconfont.woff 字体文件</view>
+			</view>
+		</view>
+	</m-timeline-item>
+	
+	<m-timeline-item text="v0.4.2">
 		<view class="content is-new">
 			<view class="date">2022-10-17</view>
 			<view class="text">

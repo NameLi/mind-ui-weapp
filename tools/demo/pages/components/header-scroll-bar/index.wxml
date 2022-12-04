@@ -5,10 +5,10 @@
 
     <view class="header-bg {{ isReady && !isTop ? 'is-show': '' }}"></view>
 
-    <view class="header-content {{ !isTop ? 'is-show' : '' }}" style="height: {{headerContentH}}px;">
+    <view class="header-content {{ !isTop ? 'is-show' : '' }}" style="height: {{titleBarH}}px;">
       <view class="header-box">
         <view class="header-poster" wx:if="{{poster}}">
-          <image style="height:{{ headerContentH - 8 }}px; width:{{ headerContentH - 8 }}px;" class="poster" src="{{poster}}" />
+          <image style="width:{{ titleBarH - 8 }}px;height:{{ titleBarH - 8 }}px;" class="poster" src="{{poster}}" />
         </view>
         <view class="header-info">
           <view class="title">{{ title }}</view>

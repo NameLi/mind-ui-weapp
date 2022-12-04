@@ -23,12 +23,14 @@ Page({
   handleCustomBgcolor() {
     const colors = ['#f8a52d', '#ff9902', '#a570f3', '#479eff', '#9ACD32', '#EE7942', '#EE7942']
     this.setData({
+      bgImage: "",
       bgcolor: colors[Math.floor(Math.random() * 7)]
     })
   },
 
   handleCustomBgcolorGradients() {
     this.setData({
+      bgImage: "",
       bgcolor: 'linear-gradient(45deg, #9000ff , #5e00ff)'
     })
   },
