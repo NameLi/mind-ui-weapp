@@ -16,6 +16,9 @@
 npm install mind-ui-weapp -S
 ```
 
+### 构建
+在微信小程序开发者工具组，点击“工具”菜单中的“构建 npm”，将其构建到 `miniprogram_npm` 目录下
+
 ### 使用
 ``` JSON
 "usingComponents": {
@@ -36,7 +39,7 @@ npm run dev
 ```
 
 ### 组件库文档地址
-[Mind UI 文档](https://mind-ui.ixook.com)
+[Mind UI 文档](https://mind-ui-weapp.ixook.com)
 
 
 ### 作者主页
