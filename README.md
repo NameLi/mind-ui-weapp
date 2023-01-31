@@ -5,7 +5,7 @@
 目前包含 30+ 个常用组件。
 
 ### 注意
-本组件库是作者为 [慕影网(微信小程序版)](https://github.com/NameLi/muying-weapp) 项目所开发，未经过严格生产环境测试，仅供学习使用。
+本组件库是作者为 [慕影网(微信小程序版)](https://github.com/NameLi/muying-weapp) 项目所开发，未经过严格测试，不建议在生产环境使用。
 
 ### 预览
 <img src="https://note-file.ixook.com/FmF45x96APZBVWtD5SMuf4wVHqf_" width="240" height="240" style="margin: 20px auto;">
@@ -39,7 +39,7 @@ npm run dev
 ```
 
 ### 组件库文档地址
-[Mind UI 文档](https://mind-ui-weapp.ixook.com)
+[使用文档](https://mind-ui-weapp.ixook.com)
 
 
 ### 作者主页

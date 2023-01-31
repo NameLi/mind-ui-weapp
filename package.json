@@ -1,7 +1,7 @@
 {
   "name": "mind-ui-weapp",
   "version": "1.1.0",
-  "description": "",
+  "description": "轻量、可靠的小程序 UI 组件库",
   "main": "miniprogram_dist/index.js",
   "scripts": {
     "dev": "gulp dev --develop",
@@ -26,12 +26,23 @@
       "miniprogram_dist"
     ]
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/NameLi/mind-ui-weapp.git"
   },
+  "homepage": "https://github.com/NameLi/mind-ui-weapp#readme",
   "author": "bingtangxueli",
   "license": "MIT",
+  "keywords": [
+    "ui",
+    "weixin",
+    "weapp",
+    "components",
+    "miniprogram"
+  ],
   "devDependencies": {
     "@babel/core": "^7.19.3",
     "babel-core": "^6.26.3",
